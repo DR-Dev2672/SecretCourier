@@ -126,7 +126,7 @@ export default function SendMessage() {
         </form>
       </Form>
 
-      <div className="space-y-4 my-8">
+      {/* <div className="space-y-4 my-8">
         <div className="space-y-2">
           <Button
             onClick={fetchSuggestedMessages}
@@ -158,14 +158,14 @@ export default function SendMessage() {
             )}
           </CardContent>
         </Card>
-      </div>
-      <Separator className="my-6" />
-      <div className="text-center">
+      </div> */}
+      {/* <Separator className="my-6" />
+       <div className="text-center">
         <div className="mb-4">Get Your Message Board</div>
-        <Link href={'/sign-up'}>
+         <Link href={'/sign-up'}>
           <Button>Create Your Account</Button>
         </Link>
-      </div>
+      </div> */}
     </div>
   );
 }
